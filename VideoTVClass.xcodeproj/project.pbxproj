@@ -11,6 +11,15 @@
 		DFB37C112805E59B005C0C7C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB37C102805E59B005C0C7C /* ContentView.swift */; };
 		DFB37C132805E59F005C0C7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFB37C122805E59F005C0C7C /* Assets.xcassets */; };
 		DFB37C162805E59F005C0C7C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFB37C152805E59F005C0C7C /* Preview Assets.xcassets */; };
+		DFB37C1D2805E6A8005C0C7C /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB37C1C2805E6A8005C0C7C /* Video.swift */; };
+		DFB37C202805E97D005C0C7C /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB37C1F2805E97D005C0C7C /* Category.swift */; };
+		DFB37C222805EC76005C0C7C /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB37C212805EC76005C0C7C /* DataProvider.swift */; };
+		DFB37C242805EDD2005C0C7C /* CategoryProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB37C232805EDD2005C0C7C /* CategoryProvider.swift */; };
+		DFB37C272805F2CC005C0C7C /* TVButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB37C262805F2CC005C0C7C /* TVButton.swift */; };
+		DFB37C292805F4DA005C0C7C /* VideoThumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB37C282805F4DA005C0C7C /* VideoThumbnail.swift */; };
+		DFB37C2B2805F73C005C0C7C /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB37C2A2805F73C005C0C7C /* CategoryRow.swift */; };
+		DFB37C2D2805F9B8005C0C7C /* VideoDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB37C2C2805F9B8005C0C7C /* VideoDetail.swift */; };
+		DFB37C2F2805FB97005C0C7C /* CategoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB37C2E2805FB97005C0C7C /* CategoryListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,15 @@
 		DFB37C102805E59B005C0C7C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DFB37C122805E59F005C0C7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFB37C152805E59F005C0C7C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DFB37C1C2805E6A8005C0C7C /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		DFB37C1F2805E97D005C0C7C /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		DFB37C212805EC76005C0C7C /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
+		DFB37C232805EDD2005C0C7C /* CategoryProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryProvider.swift; sourceTree = "<group>"; };
+		DFB37C262805F2CC005C0C7C /* TVButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVButton.swift; sourceTree = "<group>"; };
+		DFB37C282805F4DA005C0C7C /* VideoThumbnail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoThumbnail.swift; sourceTree = "<group>"; };
+		DFB37C2A2805F73C005C0C7C /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		DFB37C2C2805F9B8005C0C7C /* VideoDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetail.swift; sourceTree = "<group>"; };
+		DFB37C2E2805FB97005C0C7C /* CategoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +69,8 @@
 		DFB37C0D2805E59B005C0C7C /* VideoTVClass */ = {
 			isa = PBXGroup;
 			children = (
+				DFB37C252805F2AA005C0C7C /* View */,
+				DFB37C1E2805E6AC005C0C7C /* Model */,
 				DFB37C0E2805E59B005C0C7C /* VideoTVClassApp.swift */,
 				DFB37C102805E59B005C0C7C /* ContentView.swift */,
 				DFB37C122805E59F005C0C7C /* Assets.xcassets */,
@@ -65,6 +85,29 @@
 				DFB37C152805E59F005C0C7C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DFB37C1E2805E6AC005C0C7C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DFB37C1C2805E6A8005C0C7C /* Video.swift */,
+				DFB37C1F2805E97D005C0C7C /* Category.swift */,
+				DFB37C212805EC76005C0C7C /* DataProvider.swift */,
+				DFB37C232805EDD2005C0C7C /* CategoryProvider.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DFB37C252805F2AA005C0C7C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DFB37C262805F2CC005C0C7C /* TVButton.swift */,
+				DFB37C282805F4DA005C0C7C /* VideoThumbnail.swift */,
+				DFB37C2A2805F73C005C0C7C /* CategoryRow.swift */,
+				DFB37C2C2805F9B8005C0C7C /* VideoDetail.swift */,
+				DFB37C2E2805FB97005C0C7C /* CategoryListView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +180,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFB37C272805F2CC005C0C7C /* TVButton.swift in Sources */,
+				DFB37C242805EDD2005C0C7C /* CategoryProvider.swift in Sources */,
+				DFB37C2F2805FB97005C0C7C /* CategoryListView.swift in Sources */,
+				DFB37C292805F4DA005C0C7C /* VideoThumbnail.swift in Sources */,
 				DFB37C112805E59B005C0C7C /* ContentView.swift in Sources */,
+				DFB37C1D2805E6A8005C0C7C /* Video.swift in Sources */,
+				DFB37C222805EC76005C0C7C /* DataProvider.swift in Sources */,
+				DFB37C2D2805F9B8005C0C7C /* VideoDetail.swift in Sources */,
 				DFB37C0F2805E59B005C0C7C /* VideoTVClassApp.swift in Sources */,
+				DFB37C2B2805F73C005C0C7C /* CategoryRow.swift in Sources */,
+				DFB37C202805E97D005C0C7C /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

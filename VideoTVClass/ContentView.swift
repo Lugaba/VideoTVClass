@@ -8,9 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var dataProvider = DataProvider()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            TabView {
+                Text("bom dia")
+            }
+        }
     }
 }
 
